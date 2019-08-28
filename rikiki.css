@@ -1,0 +1,53 @@
+.name {
+  width: 6em;
+  height: 2em;
+  border: solid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pointTable {
+  width: 6em;
+  height: 2.5em;
+  border: solid;
+  border-top: none;
+  position: relative;
+}
+
+.hands {
+  width: 2em;
+  height: 1.25em;
+  border-right: solid;
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+
+.tips {
+  width: 2em;
+  height: 1.25em;
+  border-right: solid;
+  border-top: solid;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.points {
+  width: 4em;
+  height: 2.5em;
+  position: absolute;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameTable {
+  display: inline-block;
+  top: 0;
+  text-align: center;
+}
+
