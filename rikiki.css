@@ -5,7 +5,7 @@ body {
 }
 
 .name {
-	font-size: 18px;
+	font-size: 1.125rem;
   width: 6rem;
   height: 2rem;
   border: solid;
@@ -52,7 +52,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .gameTable {
@@ -62,11 +62,17 @@ body {
 }
 
 button {
-	margin-top: 10px;
-  border-radius: 6px;
-  padding: 8px;
+	margin-top: 0.625rem;
+  border-radius: 0.325rem;
+  padding: 0.5rem;
   background: #8FBC8F;
   font-family: 'Special Elite', cursive;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   }
+
+@media (max-width: 529px) {
+  body {
+    font-size: 10px;
+  } 
+}
