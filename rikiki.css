@@ -78,4 +78,10 @@ button {
   html {
     font-size: 10px;
   } 
+	.hands {
+		font-size: 0.7rem
+	}
+	.tips {
+		font-size: 0.7rem
+	}
 }
