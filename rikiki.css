@@ -74,7 +74,7 @@ button {
   font-weight: bold;
   }
 
-@media (max-width: 529px) {
+@media screen and (max-width: 529px) {
   html {
     font-size: 10px;
   } 
